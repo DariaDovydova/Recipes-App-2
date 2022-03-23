@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body {
+ padding: 0;
+ margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.container-info {
+  /* background-color: #f3f4ed; */
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+}
+
+.container-btn {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  list-style: none;
+  text-align: start;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 50px;
+  color: #302a2c;
+  font-weight: lighter;
+  letter-spacing: .5mm;
+}
+
+.header {
+  background-color: #f3f4ed;
+}
+
+.search {
+  padding: 10px;
+  width: 300px;
+  margin: 20px 5px;
+  font-size: 20px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.btn-search {
+  background-color: #fff;
+  padding-bottom: 11px;
+  border: none;
+}
+
+.btn {
+  background-color: #fff;
+  border: none;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  margin: 20px;
+  color: #302a2c;
+  letter-spacing: .3mm;
+}
+
+.btn:hover {
+  color: #68cd94;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: lighter;
+  letter-spacing: .3mm;
+}
+
+li, p {
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: .3mm;
 }
